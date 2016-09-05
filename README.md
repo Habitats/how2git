@@ -50,6 +50,18 @@ git add -A
 git commit -am "feat: add neat feature c
 ```
 
-Merge master into your branch to make sure it works
+Update your local master, and merge it into your new feature branch
 ```
-git 
+git checkout master
+git pull origin master
+git checkout feature_b
+git merge master
+```
+
+Make sure everything still works, and then merge your feature branch into the master
+
+```
+git checkout master
+git merge feature_b
+git push origin master
+```
