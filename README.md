@@ -2,7 +2,7 @@
 
 A small toy repo for a git workshop. 
 
-# Ading a feature
+# Adding a feature
 
 Make sure you're on master
 `git checkout origin master`
