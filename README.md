@@ -31,12 +31,8 @@ Also, use imperative form in commit messgeas. That is, write what you intended t
 
 NB: If you feel like your commit fits several of these tags, that probably means you're commiting too much at once. A single commit should only cover a single feature! If you did some refactoring, *and* updated some configurations, then create two separate commits: One for each.
 
-# Q & A
 
-* What is origin?
-Origin is the remote repository. On the other hand, HEAD is the current state of local repo on *your own* computer. 
-
-# Merging
+# Workflow and Merging
 
 Perhaps the most scary part of using git is the fear of losing work and resolving merge conflicts. However, these issues can mostly be avoided by using a swift workflow.
 
@@ -65,3 +61,7 @@ git checkout master
 git merge feature_b
 git push origin master
 ```
+
+# Q & A
+* What is origin?
+Origin is the remote repository. On the other hand, HEAD is the current state of local repo on *your own* computer. 
