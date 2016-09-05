@@ -29,7 +29,7 @@ Commit your changes using a commit message on the following format
 
 Also, use imperative form in commit messgeas. That is, write what you intended to do, not what you did: "add new feature", not "added new feature"
 
-NB: If you feel like your commit fits several of these tags, that probably means you're commiting too much at once. A single commit should only cover a single feature! If you did some refactoring, *and* updated some configurations, then create two separate commits: One for each.
+NB: If you feel like your commit fits several of these tags, that probably means you're commiting too much at once. A single commit should only cover a single feature! If you did some refactoring, *and* updated some configurations, then create two separate commits: One for each. Also, if you feel like your commit message requires the word *and*, that probably is a sign that you're commiting too much!
 
 
 # Workflow and Merging
