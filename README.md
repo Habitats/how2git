@@ -1,9 +1,9 @@
 # How2Git
 
 ## Clone
-To clone a repo, including all of its [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) use
+To clone a repo, use
 ```
-git clone --recursive git@github.com:<user>/<repo>
+git clone git@github.com:<user>/<repo>
 ```
 
 ## Add a Feature
@@ -13,7 +13,7 @@ git checkout origin stage
 ```
 Create a new branch for the new feature. Use lowercase and underscore for spaces
 ```
-git checkout -b feature_a
+git checkout -b feat-cool-feature
 ```
 Make some changes, and stage them
 ```
