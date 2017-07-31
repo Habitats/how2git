@@ -58,7 +58,13 @@ git merge stage
 ```
 Make sure everything still works, and then create a *Pull Request* through [GitHub](https://help.github.com/articles/creating-a-pull-request/) or [SourceTree](https://www.sourcetreeapp.com/).
 
-**NB**: If the feature involves multiple repositories because of submodules, create a Pull Request with **identical names** for each of the repositories.
+**NB**: If you're familiar with [Rebase](https://git-scm.com/book/en/v2/Git-Branching-Rebasing), consider rebasing your branch on top of stage before merging the feature in. This will remove unecessary commits, and clean up the history.
+
+```
+git fetch -a
+git rebase -i origin/stage
+git push -f <your branch>
+```
 
 ## Q & A
 * What is origin?
