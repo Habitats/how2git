@@ -53,7 +53,7 @@ Update your local repo, and merge it into your new feature branch
 ```
 git checkout stage
 git pull origin stage
-git checkout feature_b
+git checkout feat-cool-feature
 git merge stage
 ```
 Make sure everything still works, and then create a *Pull Request* through [GitHub](https://help.github.com/articles/creating-a-pull-request/) or [SourceTree](https://www.sourcetreeapp.com/).
