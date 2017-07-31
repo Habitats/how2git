@@ -18,11 +18,11 @@ git checkout -b feat-cool-feature
 Make some changes, and stage them
 ```
 git add -A
-git commit -m "feat: add cool feature a
+git commit -m "feat: add cool feature a"
 ```
 If you've only made changes to existing files, adding and commiting can be done with a single command
 ```
-git commit -am "feat: add cool feature b
+git commit -am "feat: add cool feature b"
 ```
 
 ## Commit
